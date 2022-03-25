@@ -1,0 +1,20 @@
+<p>Mad Maps is a powerful, integrated collection of tools to solve all of your Unity terrain pipeline needs. It is a terrain pipeline that is non-destructive, extensible, flexible, fast and modular. It's been battle-tested for the past 2 years in a professional studio environment, used for creating massive open world levels.</p>
+
+<p>Mad Maps is <em>3 toolsets for the price of 1!</em> All are tightly integrated to provide a complete solution to level-building.</p>
+
+<p>• The Terrain Wrapper: a layer system for the Unity terrain. Useful for seamlessly integrating with existing procedural generation solutions (see below), allowing you to combine procedural generation with handcrafted polish. Organise layers, snapshot and store terrains, create procedural filters, and more.</p>
+
+<p>• World Stamps: for splitting complex levels up into manageable chunks, and easily modify, store and reuse areas of your world. It's a copy/paste functionality for your entire world.</p>
+
+<p>• Mad Maps Roads: a complete road tool, for easily creating spline-based terrain modifiers. Works seamlessly with the Terrain Wrapper and World Stamp system for a non-destructive workflow. Paint complex road networks, deform the terrain, place/remove objects, and more.</p>
+
+Forum | <a href="http://lrtw.net/madmaps">Documentation</a>
+
+<p>Full source code provided</p>
+
+<p>Currently comes with out-of-the-box support for:</p>
+<p>• <a href="https://assetstore.unity.com/packages/tools/terrain/mapmagic-world-generator-56762">MapMagic</a></p>
+
+
+=============== KEYWORDS ===============
+Terrain non-destructive procedural handcrafted roads road mapmagic gaia level open-world
