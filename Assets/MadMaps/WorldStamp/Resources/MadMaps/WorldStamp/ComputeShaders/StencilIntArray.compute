@@ -1,0 +1,40 @@
+﻿#include "TerrainFunctions.compute"
+#pragma kernel StencilInts
+
+RWStructuredBuffer<int> _Base;
+float2 _BaseSize;
+float2 _TotalSize;
+float4 _MinMax;
+
+StructuredBuffer<float> _Stencil;
+float2 _StencilSize;
+
+bool _Invert;
+bool _Absolute;
+
+[numthreads(1,1,1)]
+void StencilInts (uint3 id : SV_DispatchThreadID)
+{
+	int index = id.x + id.y * _BaseSize.x;
+
+	float ux = (id.x + _MinMax.x) / _TotalSize.x;
+	float uy = (id.y + _MinMax.y) / _TotalSize.y;
+
+	float stencilVal = StencilBilinearSample(_Stencil, _StencilSize.x, _StencilSize.y, ux, uy);
+
+	int key = 0;
+	float val = 0;
+	DecompressStencil(stencilVal, key, val);
+	
+	if(_Absolute)
+	{
+		_Base[index] = val > 0 ? _Base[index] : 0;
+		return;
+	}	
+	if(_Invert)
+	{
+		_Base[index] = (int)(_Base[index] * saturate(val));
+		return;
+	}	
+	_Base[index] = (int)(_Base[index] * saturate(1-val));	
+}

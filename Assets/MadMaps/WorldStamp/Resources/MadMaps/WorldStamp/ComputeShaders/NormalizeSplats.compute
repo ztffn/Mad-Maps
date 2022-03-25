@@ -1,0 +1,25 @@
+﻿#pragma kernel Normalize
+
+RWStructuredBuffer<float> _WriteData;
+float3 _Size;
+
+[numthreads(1,1,1)]
+void Normalize (uint3 id : SV_DispatchThreadID)
+{
+	float sum = 0;
+	for(int i = 0; i < _Size.z; ++i)
+	{
+		int writeIndex = i + _Size.z * id.x + _Size.z * _Size.y * id.y;
+		sum += _WriteData[writeIndex];
+		if(sum <= 0)
+		{
+			_WriteData[_Size.z * id.x + _Size.z * _Size.y * id.y] = 1;
+			return;
+		}
+	}
+	for(int j = 0; j < _Size.z; ++j)
+	{
+		int writeIndex = j + _Size.z * id.x + _Size.z * _Size.y * id.y;
+		_WriteData[writeIndex] /= sum;
+	}
+}

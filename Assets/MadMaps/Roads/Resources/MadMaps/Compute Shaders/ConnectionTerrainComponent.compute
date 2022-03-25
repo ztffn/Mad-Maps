@@ -1,0 +1,20 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+struct ControlPoint
+{
+	float3 Control;
+	float3 Position;
+	float3 Rotation;
+};
+
+struct SplineSegment
+{
+	ControlPoint FirstControlPoint;
+	ControlPoint SecondControlPoint;
+};
+
+[numthreads(1,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+}

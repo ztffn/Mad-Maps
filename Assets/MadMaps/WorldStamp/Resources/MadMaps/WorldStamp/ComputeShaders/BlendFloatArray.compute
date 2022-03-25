@@ -1,0 +1,50 @@
+﻿#include "TerrainFunctions.compute"
+#pragma kernel BlendFloats
+
+RWStructuredBuffer<float> _Base;
+float2 _BaseSize;
+
+StructuredBuffer<float> _Blend;
+float2 _BlendSize;
+
+StructuredBuffer<float> _Stencil;
+float2 _StencilSize;
+
+int _BlendMode;
+float4 _MinMax;
+float4 _TotalSize;
+
+[numthreads(1,1,1)]
+void BlendFloats (uint3 id : SV_DispatchThreadID)
+{
+	int index = id.x + id.y * _BaseSize.x;
+	float base = _Base[index]; 
+
+	float ux = id.x / _BaseSize.x;
+	float uy = id.y / _BaseSize.y;
+
+	float blend = BilinearSample(_Blend, _BlendSize.x, _BlendSize.y, ux, uy);
+	//blend = _Blend[index];
+
+	float sx = (id.x + _MinMax.x) / _TotalSize.x;
+	float sy = (id.y + _MinMax.y) / _TotalSize.y;
+	float stencilVal = StencilBilinearSample(_Stencil, _StencilSize.x, _StencilSize.y, sx, sy);
+	//stencilVal = _Stencil[index];
+
+	float stencil = 0;
+	int key = 0;
+	DecompressStencil(stencilVal, key, stencil);
+
+	if(_BlendMode == 0)			// Additive
+	{
+		_Base[index] = base + blend;		
+	}
+	else if(_BlendMode == 1)	// Set
+	{
+		_Base[index] = blend;
+	}
+	else if(_BlendMode == 2)	// Stencil;
+	{
+		_Base[index] = lerp(base, blend, stencil);
+	}
+}

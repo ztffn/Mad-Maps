@@ -1,0 +1,116 @@
+﻿
+
+void DecompressStencil(float stencilValue, out int key, out float strength)
+{	
+	const float StencilCompressionRange = 0.9;
+
+	key =  (int)(stencilValue > 0 ? floor(stencilValue) : ceil(stencilValue));
+	float absFrac = frac(abs(stencilValue));
+	absFrac = clamp(absFrac, 0, StencilCompressionRange);
+	strength = saturate(1 - (absFrac / StencilCompressionRange));
+
+	if(key < 1) strength = 0;
+}
+
+float CompressStencil(int key, float strength)
+{	
+	const float StencilCompressionRange = 0.9;
+	return key + (1 - saturate(strength)) * StencilCompressionRange * sign(key);
+}
+
+inline bool Approx(float v, float t, float epsilon = 0.001)
+{
+	return abs(v - t) < epsilon;
+}
+
+float BilinearSample(StructuredBuffer<float> array, int width, int height, float ux, float uz, bool ignoreNegatives = true)
+{
+	ux *= width;
+	uz *= height;
+	
+	int xMin = floor(ux);
+	xMin = clamp(xMin, 0, width-1);
+	int xMax = clamp(xMin+1, 0, width-1);
+
+	int zMin = floor(uz);
+	zMin = clamp(zMin, 0, height-1);
+	int zMax = clamp(zMin+1, 0, height-1);
+	
+	float v1 = array[xMin + zMin * width];
+	float v2 = array[xMax + zMin * width];
+	float v3 = array[xMin + zMax * width];
+	float v4 = array[xMax + zMax * width];
+
+	if(ignoreNegatives)
+	{
+		v1 = max(0, v1);
+		v2 = max(0, v2);
+		v3 = max(0, v3);
+		v4 = max(0, v4);
+	}
+	
+	float xFrac = frac(ux);
+	float zFrac = frac(uz);
+	
+	if(Approx(xFrac, 0) && Approx(zFrac, 0)) return v1;
+	if(Approx(xFrac, 1) && Approx(zFrac, 0)) return v2;
+	if(Approx(xFrac, 0) && Approx(zFrac, 1)) return v3;
+	if(Approx(xFrac, 1) && Approx(zFrac, 1)) return v4;
+	
+	v1 *= (1 - xFrac) * (1 - zFrac);
+	v2 *= (1 - xFrac) * zFrac;
+	v3 *= xFrac * (1 - zFrac);
+	v4 *= xFrac * zFrac;
+	
+	return v1 + v2 + v3 + v4;
+}
+
+float StencilBilinearSample(StructuredBuffer<float> array, int width, int height, float ux, float uz, bool ignoreNegatives = true)
+{
+	ux *= width;
+	uz *= height;
+	
+	int xMin = floor(ux);
+	xMin = clamp(xMin, 0, width-1);
+	int xMax = clamp(xMin+1, 0, width-1);
+
+	int zMin = floor(uz);
+	zMin = clamp(zMin, 0, height-1);
+	int zMax = clamp(zMin+1, 0, height-1);
+	
+	float v1 = array[xMin + zMin * width];
+	float v2 = array[xMax + zMin * width];
+	float v3 = array[xMin + zMax * width];
+	float v4 = array[xMax + zMax * width];
+
+	int k1, k2, k3, k4;
+	float vS1, vS2, vS3, vS4;
+
+	DecompressStencil(v1, k1, vS1);
+	DecompressStencil(v2, k2, vS2);
+	DecompressStencil(v3, k3, vS3);
+	DecompressStencil(v4, k4, vS4);
+	
+	if(ignoreNegatives)
+	{
+		vS1 = max(0, vS1);
+		vS2 = max(0, vS2);
+		vS3 = max(0, vS3);
+		vS4 = max(0, vS4);
+	}
+	
+	float xFrac = frac(ux);
+	float zFrac = frac(uz);
+	
+	if(Approx(xFrac, 0) && Approx(zFrac, 0)) return CompressStencil(k1, vS1);
+	if(Approx(xFrac, 1) && Approx(zFrac, 0)) return CompressStencil(k2, vS2);
+	if(Approx(xFrac, 0) && Approx(zFrac, 1)) return CompressStencil(k3, vS3);
+	if(Approx(xFrac, 1) && Approx(zFrac, 1)) return CompressStencil(k4, vS4);
+	
+	vS1 *= (1 - xFrac) * (1 - zFrac);
+	vS2 *= (1 - xFrac) * zFrac;
+	vS3 *= xFrac * (1 - zFrac);
+	vS4 *= xFrac * zFrac;
+	
+	return CompressStencil(k1, vS1 + vS2 + vS3 + vS4);
+}

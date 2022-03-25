@@ -1,0 +1,101 @@
+Current Version: v 0.1.5
+
+- MapMagic Integration: The Mad Maps Object Output can now better place World Stamps. You now have a tickbox of whether you want to reapply stamps after mapmagic is done generating.
+- ProceduralTerrainModifier has been renamed to TerrainPlane (as it's not quite as simple anymore).
+- Added the ability for the TerrainPlane to selectively remove trees, details and objects.
+- The TerrainPlane will now have much more reasonable default values.
+- Fixed compatibility with 2018.2+
+- Fixed compatibility with 2018.3+ (this required renaming the TerrainLayer class to MMTerrainLayer)
+
+== History ==
+
+v 0.1.4b
+
+- Fixed issue where Applying changes to a WorldStamp prefab instance would erase the WorldStamp data.
+- World stamps will no longer remove stamp objects in underlying layers.
+
+v 0.1.4a
+
+- Fixed MapMagic compilation errors when building with C# 4.0 and above.
+
+v 0.1.4
+
+- To reduce asset bloat, demo assets will now be a separate asset here: http://u3d.as/1fzM
+- You can now preview tree and object removals
+- Position based previewing should be easier to see now
+
+v 0.1.3
+
+- Added a new demo scene, with some stamps and roads on a terrain. More complexity and more scenes coming soon!
+- Road nodes will now update their snapping before rebaking
+- Added icons for Splat and Detail wrappers
+- Fixed replacing World Stamps from the World Stamp Creator when also capturing a road network
+- Fixed "splat missing texture" error when assigning a Splat Wrapper with no texture
+- Fixed the heightmap, splat maps and detail maps being erased when they weren't being written to by the Terrain Wrapper
+- Fixed slight assymetry on Set Detail Splats road component
+- Drastically improved core architecture to allow for easier development of further extensions and widgets
+- Fixed incorrect handling of terrain layer objects, where occassionally their instances would not be pooled properly
+- Added the ability to lock both Terrain Wrappers and Layers, which will mean they will not alter their data
+- Added 'dirtiness' indicator for layers, indicating that they may need to be rebaked. A layer may become dirty when underlying data changes, or when certain events happen like a stamp is moved.
+- Removed Blend Mode dropdown from layer GUI. Currently there is no real scenario where this should be user defined.
+- Added the ability to recalculate all components (road networks, stamps, etc) through the terrain layer UI
+- Changed the "Fill From Zero Height" tool in the Mask tab of the World Stamp Creator window to be more flexible - now, define a range to fill a gradient based on the heightmap.
+- Added ability to change the control scheme of the Road Network for computers where middle mouse buttons were not available. Do this in the Configuration tab of the Road Network Window.
+- Fixed Simple Terrain Plane widget removing trees and objects
+- Changed "Stamp Layer 'X'" and "Stamp All Layers" with "Recalculate Layer 'X'" and "Recalculate All Layers". Recalculate All Layers will now also trigger a Road Network rebake.
+- Fixed issue where Set Terrain Height connection component didn't write the very edge of a terrain.
+
+v 0.1.2d
+
+- Fixed an exception if you tried to capture from a Terrain with a detail prototype, where neither the Prototype Texture or Prototype Model were defined (thanks DocSavage!)
+- Fixed errors when popping out the Terrain Wrapper inspector into its own window
+- Fixed innacurate splat renormalisation with the Set Terrain Splat road component
+- Added a clickable gizmo cube to all stamps to make them easier to select
+- Improved behaviour and errors when attempting to use multiple layers with different resolutions
+- Fixed relative-to-stamp object placement when scaling world stamps on the Y axis
+- Added ability to disable stencil writing on world stamps - this allows you to create stamps that do things like only add trees on the same layer as existing stamps.
+- Objects will now be organised according to their source under the ObjectContainer (thanks Jerome!)
+- Improved Splat/Detail management. You can now resolve and create new splat/detail wrappers from their respective tabs on the Terrain Wrapper
+
+v 0.1.2c
+
+- Fixed Set Terrain Splat road connection component
+- Fixed more GUI harmless exception spam
+- Improved some issues when capturing only certain layers for a stamp
+- World Stamps will now update their snapping just before they are applied
+- Fixed some errors with painting large masks with the fallback OpenGL mode
+- Fixed blur brush for painter
+- Fixed specifying a manual zero level on stamp capturing
+- Removed debug code from WorldStamp object removal
+- Added "Normalize Preview" button in Data Inspector
+
+v 0.1.2b
+
+- Fixed GUI error spam when selecting the Terrain Wrapper for the first time and rebaking World Stamps.
+- Fixed a problem where MapMagic outputs could nullify some wrappers
+- Fixed some exceptions when rebaking Road components outside of a Road Network
+
+v 0.1.2a
+
+- Fixed compute shaders in 2018 and above
+
+v 0.1.2
+
+- Fixed painter on OpenGL platforms. If painting masks doesn't work for you, try enabling the fallback override with Tools/Mad Maps/Utilities/Force Fallback Painter
+- Improved painter tearing down, could sometimes leave an orphaned painter floating in the scene until recompile
+- Added VegetationStudio x MapMagic integrated generator
+- Fixed WorldStamps properly removing existing Vegetation Studio data
+- World Stamps will now properly configure themselves to remove existing data based on their own information, when created with the World Stamp Creator tool.
+- Improved the World Stamp priority explorer
+
+v 0.1.1
+
+- Map Magic Integration: Fixed terrain heightmap welding.
+- Vegetation Studio Integration: Added VegetationStudio data layers to the TerrainWrapper and World Stamps. 
+- Vegetation Studio Integration: Added VegetationStudio modifiers to the road tool.
+- Data Inspector: Added the ability to preview object/position data such as trees, objects and more.
+- TerrainWrapper: Fixed making an object container when it doesn't need to.
+- Road Network: Fixed bug where nodes could share their configuration, causing unexpected behaviour.
+- Generic Editor: Fixes for drawing some null objects. Added more basic drawers.
+
+v 0.1.0 Initial Release 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c09aea9db04c8dbee5415a69b1add2, type: 3}
+  m_Name: TerrainTexture4_oldWrapper
+  m_EditorClassIdentifier: 
+  Texture: {fileID: 2800000, guid: 2319639c6a8c4411a7e5db3a82431b57, type: 3}
+  NormalMap: {fileID: 2800000, guid: 79c44baa3e404a0e874519b1f5110418, type: 3}
+  Smoothness: 0
+  SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  TileSize: {x: 15, y: 15}
+  TileOffset: {x: 0, y: 0}
+  Metallic: 0
+  Multiplier: 1
