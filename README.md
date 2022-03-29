@@ -11,7 +11,10 @@ The **Terrain Wrapper**: a layer system for the Unity terrain. Useful for seamle
 
 **Road Networks**: a complete road tool, for easily creating spline-based mesh, object and terrain modifiers. Works seamlessly with the Terrain Wrapper and World Stamp system for a non-destructive workflow. Paint complex road networks, deform the terrain, place/remove objects, and more.
 
-** This fork is currently being updated for unity 2021.2, but has not been yet been tested. **
+** This fork is currently being updated for unity 2021.2, it generally works, but has not been thoroughly tested **
+Known issues:
+- Needs new demo assets, some were missing guids, and meshes are misplaced etc. A bit of a mess.
+- Stamp Tool Mask Painting Editor window is broken. Leads to not being able to mask, and is a big issue.
 
 
 
