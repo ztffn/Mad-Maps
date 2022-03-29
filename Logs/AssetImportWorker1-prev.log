@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58363
+63541
 Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
 /Users/steffen/Unity Projects/Mad-Maps
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 147.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 114.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,78 +70,78 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56697
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56161
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001896 seconds.
+Registered in 0.001685 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 139.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
+- Completed reload, in  0.834 seconds
 Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (692ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (422ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (351ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (140ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003946 seconds.
+Registered in 0.003012 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.218 seconds
+- Completed reload, in  4.353 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5219ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (4354ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (4969ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (4076ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (448ms)
+			SetupTypeCache (413ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (4269ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (3393ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
+				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (3906ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
+				ProcessInitializeOnLoadAttributes (3035ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,13 +150,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5764.
-Memory consumption went from 423.4 MB to 422.4 MB.
-Total: 5.756874 ms (FindLiveObjects: 0.480904 ms CreateObjectMapping: 0.428902 ms MarkObjects: 4.393616 ms  DeleteObjects: 0.452130 ms)
+Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5766.
+Memory consumption went from 423.7 MB to 422.7 MB.
+Total: 7.071329 ms (FindLiveObjects: 0.516433 ms CreateObjectMapping: 0.499132 ms MarkObjects: 5.554947 ms  DeleteObjects: 0.499261 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,43 +170,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54020.238287 seconds.
-  path: Assets/MadMaps/Demo/Assets/Trees/Models/baum hd med fbx.fbx
-  artifactKey: Guid(4051a7deba92469cb5517e772ac99d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Trees/Models/baum hd med fbx.fbx using Guid(4051a7deba92469cb5517e772ac99d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac6bc1d4c7ed795482749cbcbcc838') in 0.419729 seconds 
+  Time since last request: 167856.621271 seconds.
+  path: Assets/MadMaps/Demo
+  artifactKey: Guid(c65ed032e1124b5f9e56126dd2014d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo using Guid(c65ed032e1124b5f9e56126dd2014d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d7b6728b83df9ae0f1243e1f3e3b70') in 0.011729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.100627 seconds.
-  path: Assets/Presets/NormalTexture.preset
-  artifactKey: Guid(a94796b136d14296b0f96df39ab5acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/NormalTexture.preset using Guid(a94796b136d14296b0f96df39ab5acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dd96e333462588d94284db1e5758bd') in 0.110905 seconds 
+  Time since last request: 0.000141 seconds.
+  path: Assets/MadMaps/Demo/GrassFrond02Wrapper.asset
+  artifactKey: Guid(95c0b23fb05a9497d872027a899e4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/GrassFrond02Wrapper.asset using Guid(95c0b23fb05a9497d872027a899e4551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef085cee58c87ccd274064a15b7f15f') in 2.012872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Presets/UtilityTexture.preset
-  artifactKey: Guid(a61704391b1b4591b48a2711d8990dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/UtilityTexture.preset using Guid(a61704391b1b4591b48a2711d8990dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b847d7349c30716a42f3875d95cf745c') in 0.004443 seconds 
+  Time since last request: 0.000126 seconds.
+  path: Assets/MadMaps/Demo/GrassFrond01Wrapper.asset
+  artifactKey: Guid(8c2faff7b21f3415fb09307d2e9fb8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/GrassFrond01Wrapper.asset using Guid(8c2faff7b21f3415fb09307d2e9fb8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047e1a843f4500e94593b06219eb0da5') in 0.004654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.662367 seconds.
-  path: Assets/Settings/Low_PipelineAsset.asset
-  artifactKey: Guid(412978db06bf4093bdad639717132cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Low_PipelineAsset.asset using Guid(412978db06bf4093bdad639717132cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2947fe6ed244f1b2efa9f931f3dfe02c') in 0.127338 seconds 
+  Time since last request: 0.000159 seconds.
+  path: Assets/MadMaps/Demo/DemoSceneMapMagic.unity
+  artifactKey: Guid(7b6db28d03cf420d869d8a7462b7db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/DemoSceneMapMagic.unity using Guid(7b6db28d03cf420d869d8a7462b7db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77de264814c924f6d7bd53e726a55586') in 0.001303 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Settings/Medium_PipelineAsset.asset
-  artifactKey: Guid(166b08104e2847879331676159c0b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Medium_PipelineAsset.asset using Guid(166b08104e2847879331676159c0b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72950d6d5c7d69da81c222c88000c9aa') in 0.025113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Settings/Medium_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(b8d495aa2e894013aa8ed3e515e83262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Medium_PipelineAsset_ForwardRenderer.asset using Guid(b8d495aa2e894013aa8ed3e515e83262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1119cac161b998c461a4dd6ce994099b') in 0.024725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Settings/Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(15b6976ee109484c85e028c86cbc774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(15b6976ee109484c85e028c86cbc774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2367119257e7cbc9be628b65bf78b01') in 0.016753 seconds 
+  Time since last request: 0.000171 seconds.
+  path: Assets/MadMaps/Demo/DemoScene.unity
+  artifactKey: Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/DemoScene.unity using Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2d0bd3238b7125282c32f024c000be') in 0.001361 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

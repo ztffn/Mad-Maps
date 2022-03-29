@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108986046120263217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777120077627040907}
+  - component: {fileID: 4424567842230741806}
+  - component: {fileID: 1910597490379808740}
+  - component: {fileID: 439271921660148098}
+  - component: {fileID: 195720252005185762}
+  - component: {fileID: 3046305598118675229}
+  - component: {fileID: 819665136141050002}
+  m_Layer: 0
+  m_Name: Asphalt_UnsealedCross
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777120077627040907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5865580309450582039}
+  - {fileID: 4592886247273908320}
+  - {fileID: 7285667508416090833}
+  - {fileID: 4533346663627885004}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4424567842230741806
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Mesh: {fileID: 349502528669064232, guid: dc21e00a663c4e8ea0f8a4a3999d2bf2, type: 3}
+--- !u!23 &1910597490379808740
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73fca16009894f8b8ca426d9df0d1557, type: 2}
+  - {fileID: 2100000, guid: 73fca16009894f8b8ca426d9df0d1557, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &439271921660148098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: -14, y: 0, z: 0}
+  Seed: 622560692
+  Dirty: 1
+--- !u!114 &195720252005185762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 14, y: 0, z: 0}
+  Seed: 0
+  Dirty: 0
+--- !u!114 &3046305598118675229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: 13}
+  Seed: 0
+  Dirty: 0
+--- !u!114 &819665136141050002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108986046120263217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: -13}
+  Seed: 0
+  Dirty: 0
+--- !u!1 &255409682526432900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4592886247273908320}
+  - component: {fileID: 1602000254659963350}
+  m_Layer: 0
+  m_Name: Node x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4592886247273908320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255409682526432900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.49, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777120077627040907}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1602000254659963350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255409682526432900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: 0}
+  Seed: 0
+  Dirty: 0
+--- !u!1 &3939127289294069831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7285667508416090833}
+  - component: {fileID: 229739216087652057}
+  m_Layer: 0
+  m_Name: Node -y
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7285667508416090833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3939127289294069831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -14.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777120077627040907}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &229739216087652057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3939127289294069831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: 0}
+  Seed: 0
+  Dirty: 0
+--- !u!1 &5128477366273089831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5865580309450582039}
+  - component: {fileID: 7795818033406088157}
+  m_Layer: 0
+  m_Name: Node -x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5865580309450582039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128477366273089831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.43, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777120077627040907}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7795818033406088157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128477366273089831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: 0}
+  Seed: 0
+  Dirty: 0
+--- !u!1 &5135988844865935463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4533346663627885004}
+  - component: {fileID: 4648466166556910470}
+  m_Layer: 0
+  m_Name: 'Node y '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4533346663627885004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135988844865935463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 14.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777120077627040907}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4648466166556910470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135988844865935463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f7522244814f409a89860497abcb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InConnections: []
+  OutConnections: []
+  Configuration:
+    SnappingMode: 1
+    SnapDistance: 800
+    SnapOffset: 0
+    IsExplicitControl: 0
+    ExplicitControl: {x: 1, y: 0, z: 0}
+    OverrideCurviness: 0
+    Curviness: 30
+    SnapMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  Offset: {x: 0, y: 0, z: 0}
+  Seed: 0
+  Dirty: 0

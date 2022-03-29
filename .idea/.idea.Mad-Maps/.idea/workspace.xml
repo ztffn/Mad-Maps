@@ -2,36 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07802e6d-ff8a-45d0-adb2-cb781f75a3df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture10_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture10_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture11_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture11_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture12_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture12_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture13_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture13_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture14_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture14_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture16_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture16_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture1_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture1_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture2_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture2_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture3_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture3_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture4_n.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture4_n.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture5_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture5_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture6_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture6_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture7_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture7_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture8_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture8_n.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture9_n.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture9_n.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mad-Maps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mad-Maps/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Materials/Building_Texture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Materials/Building_Texture.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_a.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_a.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_b.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_b.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_c.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_c.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture3Wrapper.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/Splats/TerrainTexture3Wrapper.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/VilagePropsPackLite/Materials/METALL02_mainColor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/Assets/VilagePropsPackLite/Materials/METALL02_mainColor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/Asphalt_UnsealedCross.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/Asphalt_UnsealedCross.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/Asphalt_UnsealedT.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/Asphalt_UnsealedT.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/DemoAsphault.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/DemoAsphault.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/DemoAusphaultRoadMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoAsphault/DemoAusphaultRoadMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/Asphalt_UnsealedT.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/Asphalt_UnsealedT.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/DemoDirtRoad.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/DemoDirtRoad.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/DemoDirtRoad.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoDirtRoad/DemoDirtRoad.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoSceneMapMagic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadMaps/Demo/DemoSceneMapMagic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture14TerrainTexture14_n8921b628d36b5103.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture14TerrainTexture14_n8921b628d36b5103.terrainlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture1TerrainTexture1_n312cdf1c675cb011.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture1TerrainTexture1_n312cdf1c675cb011.terrainlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture3TerrainTexture3_n312cdf1c675cb011.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture3TerrainTexture3_n312cdf1c675cb011.terrainlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture4_oldTerrainTexture4_n3d3aba195e4d26ee.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture4_oldTerrainTexture4_n3d3aba195e4d26ee.terrainlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture5TerrainTexture5_n3d3aba195e4d26ee.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture5TerrainTexture5_n3d3aba195e4d26ee.terrainlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture6TerrainTexture6_n12a734f1a24d4f9e.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_TerrainTexture6TerrainTexture6_n12a734f1a24d4f9e.terrainlayer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648210174739</updated>
-      <workItem from="1648210187353" duration="668000" />
+      <workItem from="1648210187353" duration="1310000" />
+      <workItem from="1648543855819" duration="1765000" />
     </task>
     <servers />
   </component>

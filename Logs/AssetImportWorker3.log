@@ -1,0 +1,329 @@
+Unity Editor version:    2021.2.16f1 (559fc0ec6670)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C5021h)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/steffen/Unity Projects/Mad-Maps
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63922
+Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
+/Users/steffen/Unity Projects/Mad-Maps
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 153.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.16f1 (559fc0ec6670)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/steffen/Unity Projects/Mad-Maps/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+DELL P3421W preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56577
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002271 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 151.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 153.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4109ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (3795ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (2969ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (2539ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5766.
+Memory consumption went from 423.4 MB to 422.4 MB.
+Total: 5.614829 ms (FindLiveObjects: 0.468586 ms CreateObjectMapping: 0.422647 ms MarkObjects: 4.262898 ms  DeleteObjects: 0.459362 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172627.972349 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sack_a.prefab
+  artifactKey: Guid(b769f4aed9d045349330096244854033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sack_a.prefab using Guid(b769f4aed9d045349330096244854033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c789a597b4ac7ce65f93e7a2c4daf73') in 0.157432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.860945 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern_post.fbx
+  artifactKey: Guid(404826804d9f46829c6bdfb8e82c3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern_post.fbx using Guid(404826804d9f46829c6bdfb8e82c3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348f22618451560b114103812ebcb065') in 0.324430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Mushroom_b.fbx
+  artifactKey: Guid(ee95c87044aa4f88a453965da69d8faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Mushroom_b.fbx using Guid(ee95c87044aa4f88a453965da69d8faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141165b99d288a1db615f8cf71543f8d') in 0.034264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Tent.fbx
+  artifactKey: Guid(51148a8c963a4281a7072cea7c2f7cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Tent.fbx using Guid(51148a8c963a4281a7072cea7c2f7cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97613a52da62a294998d76c495019cd') in 0.031342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_c.fbx
+  artifactKey: Guid(f74c86fe2dfd4140b665a2736cba8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_c.fbx using Guid(f74c86fe2dfd4140b665a2736cba8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5713a064a81aa78a291687b698023f3a') in 0.032103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_a.fbx
+  artifactKey: Guid(a7718146d6c143f08415a1cf60e918f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_a.fbx using Guid(a7718146d6c143f08415a1cf60e918f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc0eb6b051f228708f4e07303563dbb') in 0.031963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Logs_b.fbx
+  artifactKey: Guid(88f84f5cb93b469fbd9bbfd38df0b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Logs_b.fbx using Guid(88f84f5cb93b469fbd9bbfd38df0b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c1db23ec7233bdf0496737ffc6cff0') in 0.035681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_e.fbx
+  artifactKey: Guid(156c3c127b234e79b680a5ad539c1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_e.fbx using Guid(156c3c127b234e79b680a5ad539c1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12453c9ff5c7f3d636b3b8c1a3101105') in 0.035098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_b.fbx
+  artifactKey: Guid(baa638d171a64369a83b64661fc54ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_b.fbx using Guid(baa638d171a64369a83b64661fc54ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98538f0c02b10df8362f113efb3cb7e3') in 0.033659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Well.fbx
+  artifactKey: Guid(19b24d11f1c748f49158e31b91635c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Well.fbx using Guid(19b24d11f1c748f49158e31b91635c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c13c493441e3f50bdd16c80702e1fc7') in 0.030035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398722 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Fence_c.fbx
+  artifactKey: Guid(53159b1346f84c12b292ffa5a9f65e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Fence_c.fbx using Guid(53159b1346f84c12b292ffa5a9f65e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591787f9e2f100ad31cde70957475ed4') in 0.031460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Hay_b.fbx
+  artifactKey: Guid(ef052c7a85584fe4aedbd483347b819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Hay_b.fbx using Guid(ef052c7a85584fe4aedbd483347b819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3690677546ced419b51ae2b4c723d84') in 0.034045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Food_b.fbx
+  artifactKey: Guid(22bcfcf3eeb548a195f81dd527492c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Food_b.fbx using Guid(22bcfcf3eeb548a195f81dd527492c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c73c42a710600bfbc2d45297e15d3') in 0.038107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146581 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_e_collider.fbx
+  artifactKey: Guid(7abebc49a9a94f20b26abdd1761ab7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_e_collider.fbx using Guid(7abebc49a9a94f20b26abdd1761ab7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8146754f916e8c0f0a3a2a5a6379140a') in 0.030412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Cart_a.fbx
+  artifactKey: Guid(da563a177c87490e9390015a760c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Cart_a.fbx using Guid(da563a177c87490e9390015a760c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866cd9cea74524b8c7c8ac089b57b105') in 0.063358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Cart_Wheel_b.fbx
+  artifactKey: Guid(243ab073074149d282874c38698c91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Cart_Wheel_b.fbx using Guid(243ab073074149d282874c38698c91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b98437d258e1a2a7b9b7c9933f8fb') in 0.035350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691939 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_a.fbx
+  artifactKey: Guid(a6383b389f4944649bd51f6141400bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_a.fbx using Guid(a6383b389f4944649bd51f6141400bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dfe936f8ffdc0f88f93efc27ad4b54') in 0.033342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_c.fbx
+  artifactKey: Guid(4b0a1ea2b22a4f30a9d77fa1b4870c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_c.fbx using Guid(4b0a1ea2b22a4f30a9d77fa1b4870c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b14ced9a4ae6ccc6f310da319f71f') in 0.033619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_d.fbx
+  artifactKey: Guid(027eded0d68c48c59dbd73a326fd7a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_d.fbx using Guid(027eded0d68c48c59dbd73a326fd7a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3cf8aa2475ad9b604d88fee31c48d4') in 0.036840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.877341 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs/FarmhouseTemplate.prefab
+  artifactKey: Guid(03a63e360914b4f2687a59fa573fea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs/FarmhouseTemplate.prefab using Guid(03a63e360914b4f2687a59fa573fea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7565c5b4ccd32a8d5e800b662838c3') in 0.024942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs/Mountain1Template.prefab
+  artifactKey: Guid(e8c80019b85b142e484500c2565e77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs/Mountain1Template.prefab using Guid(e8c80019b85b142e484500c2565e77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b2922e83f923814ff8dbc3da0ce302') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4493.240081 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_TerrainTexture3TerrainTexture3_n312cdf1c675cb011.terrainlayer
+  artifactKey: Guid(19b1b4e7a85548718d51aef8270969e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_TerrainTexture3TerrainTexture3_n312cdf1c675cb011.terrainlayer using Guid(19b1b4e7a85548718d51aef8270969e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bf0abdcab086dd0e1872ddd4dacff2') in 0.137472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_TerrainTexture6TerrainTexture6_n3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(fc2be369b86c44ac69a5dc1c02ded20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_TerrainTexture6TerrainTexture6_n3d3aba195e4d26ee.terrainlayer using Guid(fc2be369b86c44ac69a5dc1c02ded20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d4ff33c5e82de89f1c783b301c936') in 0.015474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.533337 seconds.
+  path: Assets/_Materials/Roads/Textures/CityStreetRoadAsphaltTwoLaneWorn001_COL_2K_toonie2.png
+  artifactKey: Guid(e41216b56b47e45d7959a775213e5729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Roads/Textures/CityStreetRoadAsphaltTwoLaneWorn001_COL_2K_toonie2.png using Guid(e41216b56b47e45d7959a775213e5729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec454f8c4703943115f6e9ee6a2c711') in 0.945341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/_Materials/Roads/Textures/tiremark_mask.png
+  artifactKey: Guid(ac67614d13ae649609ecca4e464b4397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Roads/Textures/tiremark_mask.png using Guid(ac67614d13ae649609ecca4e464b4397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925ca27e7064bb66b7329f8244fcb9f6') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/_Materials/Roads/Textures/tiremark_NRM.png
+  artifactKey: Guid(c8b007c2b81d549a1a5b7adba3295da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Roads/Textures/tiremark_NRM.png using Guid(c8b007c2b81d549a1a5b7adba3295da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43246c59304f4b9505e6c116e6b7ba2f') in 0.017095 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

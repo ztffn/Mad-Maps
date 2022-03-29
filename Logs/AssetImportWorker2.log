@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53092
+63922
 Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
 /Users/steffen/Unity Projects/Mad-Maps
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 168.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 142.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,79 +70,79 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56450
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004128 seconds.
+Registered in 0.001456 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 157.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 120.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
+- Completed reload, in  0.834 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (148ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (475ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (363ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017376 seconds.
+Registered in 0.003548 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 142.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 113.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.937 seconds
+- Completed reload, in  3.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3938ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (3542ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (3675ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (3232ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
+			SetupTypeCache (450ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (2861ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (2541ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (2421ms)
-				ProcessInitializeOnLoadMethodAttributes (138ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (2183ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -150,13 +150,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5764.
-Memory consumption went from 423.4 MB to 422.4 MB.
-Total: 4.618629 ms (FindLiveObjects: 0.424251 ms CreateObjectMapping: 0.403356 ms MarkObjects: 3.379075 ms  DeleteObjects: 0.410967 ms)
+Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5766.
+Memory consumption went from 423.7 MB to 422.8 MB.
+Total: 5.772631 ms (FindLiveObjects: 0.485368 ms CreateObjectMapping: 0.385442 ms MarkObjects: 4.409937 ms  DeleteObjects: 0.490627 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,67 +170,346 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 62453.031344 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga
-  artifactKey: Guid(c90bb787b0694b5d89b200aa8feba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga using Guid(c90bb787b0694b5d89b200aa8feba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382dc16107f59115bb07a7ab84a3cb95') in 0.249962 seconds 
+  Time since last request: 170592.113959 seconds.
+  path: Assets/MadMaps/Demo2/TerrainTexture2Wrapper.asset
+  artifactKey: Guid(2fac79f51269646f59214ca9380f2604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo2/TerrainTexture2Wrapper.asset using Guid(2fac79f51269646f59214ca9380f2604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6df381dce29338eb6a2fb60903f131') in 0.139048 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.630749 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture14_n.tga
-  artifactKey: Guid(9d41a983abe343fc83fcd69980669502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture14_n.tga using Guid(9d41a983abe343fc83fcd69980669502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cca815b58f456279f818e82dda51335') in 0.052168 seconds 
+  Time since last request: 106.740793 seconds.
+  path: Assets/MadMaps/Demo2/TerrainTexture4Wrapper.asset
+  artifactKey: Guid(8f157ccfedaeb4222b65ea1905f84b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo2/TerrainTexture4Wrapper.asset using Guid(8f157ccfedaeb4222b65ea1905f84b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1852917fbf551446b3d7e42697619ef3') in 0.011015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture9_n.tga
-  artifactKey: Guid(1d8bcbf5386d48a5ab6e89ced091be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture9_n.tga using Guid(1d8bcbf5386d48a5ab6e89ced091be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209c8b85a9910dcaa8db4aebae0300e5') in 0.015627 seconds 
+  Time since last request: 0.000201 seconds.
+  path: Assets/MadMaps/Demo2/TerrainTexture12Wrapper.asset
+  artifactKey: Guid(0a93b3b5f92d74e1f82208c408514baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo2/TerrainTexture12Wrapper.asset using Guid(0a93b3b5f92d74e1f82208c408514baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fb59fc35c87db81cbf6caf5e1d719e') in 0.005549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 411.535797 seconds.
+  path: Assets/MadMaps/Demo/StampPreafabs
+  artifactKey: Guid(10ed52a87c9e34eebbd6c4e69faf7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPreafabs using Guid(10ed52a87c9e34eebbd6c4e69faf7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb48edbc684f0562c8cf2a0a5d5151') in 0.001361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.312249 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs
+  artifactKey: Guid(10ed52a87c9e34eebbd6c4e69faf7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs using Guid(10ed52a87c9e34eebbd6c4e69faf7aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a0eae9dfb37cfae1ec7989743e8aaf') in 0.001233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.772302 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs/FarmHouse.prefab
+  artifactKey: Guid(d1289a9b1dea942629559da5ad9bd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs/FarmHouse.prefab using Guid(d1289a9b1dea942629559da5ad9bd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746e573e931b803e659e7ec923664e1a') in 0.624492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.002984 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs/FarmhouseTemplate.prefab
+  artifactKey: Guid(03a63e360914b4f2687a59fa573fea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs/FarmhouseTemplate.prefab using Guid(03a63e360914b4f2687a59fa573fea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6db77017602ca3a2f22fc315c0e862') in 0.024197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.810054 seconds.
+  path: Assets/MadMaps/Demo/StampPrefabs/Mountain1Template.prefab
+  artifactKey: Guid(e8c80019b85b142e484500c2565e77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/StampPrefabs/Mountain1Template.prefab using Guid(e8c80019b85b142e484500c2565e77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f10d9c4939bc1d4912b6a851aa4c06') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1106.745718 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Barrel.prefab
+  artifactKey: Guid(b623fe4821534ac281fa824dabdf7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Barrel.prefab using Guid(b623fe4821534ac281fa824dabdf7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b7208d17adbc52c4d0fc7c05afc96c') in 0.008122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_c.prefab
+  artifactKey: Guid(1fb5e086006c4d54b8d736cbbc2a1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_c.prefab using Guid(1fb5e086006c4d54b8d736cbbc2a1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06695becdedcf9638d10adc55f565470') in 0.006858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_b.prefab
+  artifactKey: Guid(8178d17a9bc44857a4dc98fc00c0b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Cart_Wheel_b.prefab using Guid(8178d17a9bc44857a4dc98fc00c0b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f891ea86f6b936541dbd1b7f72e8fb2') in 0.008896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_d.prefab
+  artifactKey: Guid(cbae99fbe3e44c34b40a67a22052f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_d.prefab using Guid(cbae99fbe3e44c34b40a67a22052f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1df03d9720b204a37fce48682a3013') in 0.008852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_c.prefab
+  artifactKey: Guid(010f97187d454ebab5985b1928dd443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_c.prefab using Guid(010f97187d454ebab5985b1928dd443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e7ba00abab8fafe842b2405f40f2fe') in 0.007556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Grass.prefab
+  artifactKey: Guid(32e619741602438b947653040f4496a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Grass.prefab using Guid(32e619741602438b947653040f4496a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cfc758c3ed3d53c771367a1132d486') in 0.007088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_c.prefab
+  artifactKey: Guid(c626064507c2455285d64808ddd914f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_c.prefab using Guid(c626064507c2455285d64808ddd914f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512844bc55f856ff65bfa8193cb72a31') in 0.007531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Lantern_post.prefab
+  artifactKey: Guid(f5b163cb95b3492da7f89089be65b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Lantern_post.prefab using Guid(f5b163cb95b3492da7f89089be65b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed1c56fb30916c0627c5b3a104b2618') in 0.006760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_a.prefab
+  artifactKey: Guid(268ee05fcbfa4697b6e6616702a5d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_a.prefab using Guid(268ee05fcbfa4697b6e6616702a5d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fce28a867521ad9f32b70894ef4cc6') in 0.007869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Crate.prefab
+  artifactKey: Guid(5c8cfdb24696412598c82e8301c4ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Crate.prefab using Guid(5c8cfdb24696412598c82e8301c4ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd673977b754ef50576ac9c8321919538') in 0.006787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_a.prefab
+  artifactKey: Guid(c6852b1b9fc841eab2f9bfa3b82e1327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_a.prefab using Guid(c6852b1b9fc841eab2f9bfa3b82e1327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbf52f62892c7ee0eeceade38527294') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_c.prefab
+  artifactKey: Guid(32bc1f7fb8694e9989831de9670aff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_c.prefab using Guid(32bc1f7fb8694e9989831de9670aff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c3a9c929fddd1bb9041ad333fc4b64') in 0.007271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_a.prefab
+  artifactKey: Guid(7b624f157f8f4b2ca3136a7dfef158db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_a.prefab using Guid(7b624f157f8f4b2ca3136a7dfef158db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3086c7f090071d97de8a7e33c8d864') in 0.007376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_d.prefab
+  artifactKey: Guid(c50599a93a87499d97a247716047129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Mushroom_d.prefab using Guid(c50599a93a87499d97a247716047129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99698e33d69c531b5e12092123bd241') in 0.008467 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000108 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga
-  artifactKey: Guid(c90bb787b0694b5d89b200aa8feba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture15_n.tga using Guid(c90bb787b0694b5d89b200aa8feba6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5294d35d92c7ff681de27872708346') in 0.015418 seconds 
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_e.prefab
+  artifactKey: Guid(f8e2f5e7a68648d38d51526e78c8f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_e.prefab using Guid(f8e2f5e7a68648d38d51526e78c8f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe1e2ef84fd88b16a44f10f0d8a4d67') in 0.008322 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture12_n.tga
-  artifactKey: Guid(e23e83b28342418884ac6583bbad82ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture12_n.tga using Guid(e23e83b28342418884ac6583bbad82ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b2e10859dde272e3d4e7d92c8604ee') in 0.017004 seconds 
+  Time since last request: 0.000106 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Fence_b.prefab
+  artifactKey: Guid(02ca255c07d6495d99a5d28beaa3bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Fence_b.prefab using Guid(02ca255c07d6495d99a5d28beaa3bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb57bc8630af270e2c1635a193d979d') in 0.007571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.855515 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture2_n.tga
-  artifactKey: Guid(d770fd527ac843e9b0b6c738c75f1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture2_n.tga using Guid(d770fd527ac843e9b0b6c738c75f1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99517470b381f0615989d5d33c3ebd5d') in 0.014210 seconds 
+  Time since last request: 0.000085 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Fence_c.prefab
+  artifactKey: Guid(939e51574b694a04990bf6af4d69ef74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Fence_c.prefab using Guid(939e51574b694a04990bf6af4d69ef74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987f735a97cb41e75229ab438e511dfb') in 0.009033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.201617 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture1_n.tga
-  artifactKey: Guid(ee3f10e5353d40ce98bf861b0756e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture1_n.tga using Guid(ee3f10e5353d40ce98bf861b0756e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6ae18323a009f5f92549c7dd61be2e') in 0.014429 seconds 
+  Time since last request: 0.000118 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Lantern.prefab
+  artifactKey: Guid(d732fdf2d2724d71a502e98d000301d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Lantern.prefab using Guid(d732fdf2d2724d71a502e98d000301d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f324eda695758ef61317502af5a05e') in 0.008220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Cart_b.prefab
+  artifactKey: Guid(51df225ac34a4e2faadc7e8fb80ca130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Cart_b.prefab using Guid(51df225ac34a4e2faadc7e8fb80ca130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5627f1a525424206f6f314a23117ce2f') in 0.006514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_a.prefab
+  artifactKey: Guid(aa805a91861f4cbea7a32e97508bb5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_a.prefab using Guid(aa805a91861f4cbea7a32e97508bb5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9978bc5dbdeb06a140e916d006658e06') in 0.007849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_d.prefab
+  artifactKey: Guid(0affbb576ebb4d3f90ae8a7c8ebef223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Building_d.prefab using Guid(0affbb576ebb4d3f90ae8a7c8ebef223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71231d47e5256787248668c8fdff20a') in 0.007041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_b.prefab
+  artifactKey: Guid(f2d35b8a9492497bba99dbd062a85506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Hay_b.prefab using Guid(f2d35b8a9492497bba99dbd062a85506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0791055bd2e91c2b90e71de1ab854c00') in 0.009330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 400.620629 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_f.prefab
+  artifactKey: Guid(183a14f949d146bfa4eaeb251d412cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Rock_f.prefab using Guid(183a14f949d146bfa4eaeb251d412cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb0f3c94fc8a784c8718154efc219b5') in 0.006562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sack_b.prefab
+  artifactKey: Guid(58c52f1c81f24d698c468067133f9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sack_b.prefab using Guid(58c52f1c81f24d698c468067133f9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874f24f808e08268bdf23b994644f606') in 0.007246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_b.prefab
+  artifactKey: Guid(6a604f9aa345481186eb0f1c14783380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_b.prefab using Guid(6a604f9aa345481186eb0f1c14783380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49fb38c40a084987a075e9a0bc50643') in 0.006522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Tent.prefab
+  artifactKey: Guid(f4cd1b542cfa40f38a0f301b53a8afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Tent.prefab using Guid(f4cd1b542cfa40f38a0f301b53a8afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e679d96cf5fbfdf8c035b89fbf4274') in 0.005251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_d.prefab
+  artifactKey: Guid(5c42b6acff994c12bac6203b7b5e7675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_d.prefab using Guid(5c42b6acff994c12bac6203b7b5e7675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd660232be3be3d20eb6d5ffe6c012b1f') in 0.006591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_c.prefab
+  artifactKey: Guid(050575579cbe4c1491aa0af36a73e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_c.prefab using Guid(050575579cbe4c1491aa0af36a73e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234ad3bfb2d2eb9dc6caf599009a9ae9') in 0.006793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_a.prefab
+  artifactKey: Guid(1dab7455935b4536be401cc321c46ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sign_a.prefab using Guid(1dab7455935b4536be401cc321c46ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18f8ac7f46e234af845a62460abd1bd') in 0.007407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sewers_entrance.prefab
+  artifactKey: Guid(2c1d1cd30dd24cd896ef4be5ff524fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Sewers_entrance.prefab using Guid(2c1d1cd30dd24cd896ef4be5ff524fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19f859c0770d4ee003381fc9b91ea88') in 0.006975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088797 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Well.prefab
+  artifactKey: Guid(a9a85aa801454a26a3fdca0d192d61b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Prefabs/Well.prefab using Guid(a9a85aa801454a26a3fdca0d192d61b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a98974a0c3228fd0079e802c6ac415') in 0.006022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.798864 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern.fbx
+  artifactKey: Guid(8731ab92b1cb439abb53c0ec1ecab521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern.fbx using Guid(8731ab92b1cb439abb53c0ec1ecab521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9810d7f4a78497315129c2794fc72ff8') in 0.309556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Logs_a.fbx
+  artifactKey: Guid(e6324f087fe243aeb800a8f1e8595f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Logs_a.fbx using Guid(e6324f087fe243aeb800a8f1e8595f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4ae5d4a3107e40ccc726878d26f779') in 0.035621 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000105 seconds.
-  path: Assets/MadMaps/Demo/Assets/Splats/TerrainTexture5_n.tga
-  artifactKey: Guid(2b3ccf5b8fe94b7abbdac469af4c2b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/Assets/Splats/TerrainTexture5_n.tga using Guid(2b3ccf5b8fe94b7abbdac469af4c2b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a37a903f79aae58393fbbfaed9fa02a') in 0.016301 seconds 
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_b.fbx
+  artifactKey: Guid(85a43290385a4b269cd6d54cb37d932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_b.fbx using Guid(85a43290385a4b269cd6d54cb37d932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6deccece4578ed8d6e47c994d548402') in 0.031776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 308.739315 seconds.
-  path: Assets/Editor/UnityGuidRegenerator.cs
-  artifactKey: Guid(08cf16e2eb804eec916be1c5e5ad62b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/UnityGuidRegenerator.cs using Guid(08cf16e2eb804eec916be1c5e5ad62b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e22985e5f8b4832f505e788952cfd0a') in 0.136641 seconds 
+  Time since last request: 0.000119 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern_post_collider.fbx
+  artifactKey: Guid(01f10d9af77e426b94be4366408af6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Lantern_post_collider.fbx using Guid(01f10d9af77e426b94be4366408af6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c906bc118311dc4bf88b9bc4fe12bb4a') in 0.031431 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.229927 seconds.
-  path: Assets/MadMaps/Common/Editor
-  artifactKey: Guid(0cf6ed5f93f84cfb9acdd28277d8041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Common/Editor using Guid(0cf6ed5f93f84cfb9acdd28277d8041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244941d33290ba128f7b1506d857fb1') in 0.001147 seconds 
+  Time since last request: 0.000129 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sewers_entrance.fbx
+  artifactKey: Guid(1c200f16cbed4fd49940826f0580dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sewers_entrance.fbx using Guid(1c200f16cbed4fd49940826f0580dceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e09adc692f5b7d7a691a94a4833d08') in 0.034868 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.204212 seconds.
-  path: Assets/MadMaps/Common/Editor/StartupWindow.cs
-  artifactKey: Guid(4a0f829389a24c29992b708e9d4eeb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Common/Editor/StartupWindow.cs using Guid(4a0f829389a24c29992b708e9d4eeb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b64e07f8803837903dfff85bf0a18dc') in 0.002320 seconds 
+  Time since last request: 0.000110 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_f.fbx
+  artifactKey: Guid(af83ba7f44e445b08988ad9a96ca0a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Rock_f.fbx using Guid(af83ba7f44e445b08988ad9a96ca0a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec16b47129c12e595a2f5eea8c12c08') in 0.034500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sack_a.fbx
+  artifactKey: Guid(5e5828b3b8be42da85eb6e40c6549141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sack_a.fbx using Guid(5e5828b3b8be42da85eb6e40c6549141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53b7074e0e554ec1d4490fc6a7c6628') in 0.034638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_d.fbx
+  artifactKey: Guid(f0ec24e39dc94d0fa8f940152d3b83bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_d.fbx using Guid(f0ec24e39dc94d0fa8f940152d3b83bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444cf57e6056792ffee873d7931d2e36') in 0.033262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_c.fbx
+  artifactKey: Guid(a0fbaf07919a419b8ebf1bea2cc03221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Sign_c.fbx using Guid(a0fbaf07919a419b8ebf1bea2cc03221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cacd43168f9ab01d8e88d0ae684729c') in 0.030417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.405917 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Fence_b.fbx
+  artifactKey: Guid(0940e4b6ed7e48c08569ae9ed26e2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Fence_b.fbx using Guid(0940e4b6ed7e48c08569ae9ed26e2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b4896ed35616e71e18ff51bce9e6fc') in 0.031428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Grass.fbx
+  artifactKey: Guid(b17f7123295942a58e7e3f0ef3c5a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Grass.fbx using Guid(b17f7123295942a58e7e3f0ef3c5a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17d08b65828b57218b4bf82b87d9910') in 0.033818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Hay_c.fbx
+  artifactKey: Guid(8320f7b5e0a54a0f85312bbd919ffd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Hay_c.fbx using Guid(8320f7b5e0a54a0f85312bbd919ffd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fcac8c0c482e715ec5b6ac2506dab6') in 0.036265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.149701 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_e.fbx
+  artifactKey: Guid(a440c331610e4b51b34cf2c6903b1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_e.fbx using Guid(a440c331610e4b51b34cf2c6903b1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0562f64e337e6ec31780bf67165d2345') in 0.032826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_f.fbx
+  artifactKey: Guid(f518960a3ce3441797721665fefa24b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_f.fbx using Guid(f518960a3ce3441797721665fefa24b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65b44ceb4e1e0544a834ec57df62871') in 0.034663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Crate.fbx
+  artifactKey: Guid(c163f2874c5042e7bc773f816203fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Crate.fbx using Guid(c163f2874c5042e7bc773f816203fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f4e85e10f61d79ccbcbb7fa2bda44') in 0.039083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.716027 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Bucket.fbx
+  artifactKey: Guid(3b307761f8474a6c86152aa18af05061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Bucket.fbx using Guid(3b307761f8474a6c86152aa18af05061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb0f8676e052341eb702d5159a6ab73') in 0.033676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx
+  artifactKey: Guid(20918249ccc74e4cb8a1d363bf6f2e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_b_collider.fbx using Guid(20918249ccc74e4cb8a1d363bf6f2e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb15f0331a04d8a04b9c131bddddd27') in 0.031699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_a_collider.fbx
+  artifactKey: Guid(74deacccef484c86b8a9048f34538ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/Assets/MedievalTownExteriors/Meshes/Building_a_collider.fbx using Guid(74deacccef484c86b8a9048f34538ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439627423ff704c62193f5a5cb9d1621') in 0.029953 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

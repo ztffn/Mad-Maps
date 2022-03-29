@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5899334413566362311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5899334413566362308}
+  - component: {fileID: 5899334413566362309}
+  m_Layer: 0
+  m_Name: FarmhouseTemplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5899334413566362308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5899334413566362311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 128.65497, y: 0, z: 429.3451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5899334413566362309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5899334413566362311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960c3b12be104a4a82eecb74e9e9e3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mask:
+    _compressedData: 1f8b0800000000000003ed98414a0341104547c4ad20482ee0c2030475219a2b889b2c260bc58d086e0d0407247811217800d7b988ab4470e121b2b0be4c41d1748b9aaa1e5aeac3278119d2af7f7ecff44c55b95c2e97eb3febfe7afbf4fc656bf0babb17358ee11cb86b56887927cfc3c1c1ea366a1c8bcd639e690e331a075ed0b86ce6adaa87a88f12f3a8897b69cc8d4ccf681c38648871b263f360ee11fd96253358c7340e9ccaf4bbacc339e0fb3bfd4f561d41c6e8612ad7dff2cbac2dbacd9d188b75b60e738e8ec8eb82166b987bfd3454cd9a3b61c10befec375f9f178a595b33b3b11e357867eddab3e66da87b5a39d76d97ad9935735e64ea8533db7759323f6e5e1e96c7fcb63633d6e0ddd54d513963afb89c1e17c5fcb1d13bc9717dd65c8325324339eeddbc972e8959f3de0df15e34f59ca4c5bb52dc8bcec5338a5527347959326badbcf13bda9d9042d6a3965b639f27792d320eb9e1bf66cdace88335afe4861bd1939ff0f7e99c7ea66c53c2b8c80a0ef963e6f7225df14a2173c99f32f65ab5f13b2397cbe57275a74f3d0b974358200000
+    _dirty: 0
+    Height: 46
+    Width: 45
+  Size: {x: 210.5263, y: 300, z: 210.52637}
+  Template:
+    Bounds:
+      m_Center: {x: 128.65497, y: 150, z: -928.6549}
+      m_Extent: {x: 105.26315, y: 150, z: 105.26318}
+    Terrain: {fileID: 0}
+    Layer: 0
+    DetailDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      IgnoredDetails: []
+    HeightmapDataCreator:
+      GUIExpanded: 1
+      Enabled: 1
+      AutoZeroLevel: 1
+    MaskDataCreator:
+      GUIExpanded: 1
+      Enabled: 1
+      GridSize: 4.6783624
+    ObjectDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      Mask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      RelativeMode: 0
+    RoadDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      CreateLightNetwork: 1
+      StripNetwork: 1
+      DeleteDataContainers: 1
+    SplatDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      IgnoredSplats: []
+    TreeDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      Prototypes:
+      - {fileID: 100000, guid: 6d79e2109b044d9c9a6a53b926db437b, type: 3}
+      - {fileID: 100000, guid: 4051a7deba92469cb5517e772ac99d51, type: 3}
+      - {fileID: 100000, guid: 4f977e1799c54eb78d27d8751fbf9dec, type: 3}
+      IgnoredTrees: []

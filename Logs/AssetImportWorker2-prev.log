@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58363
+63541
 Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
 /Users/steffen/Unity Projects/Mad-Maps
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/steffen/Unity Projects/Mad-Maps
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 160.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 151.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,78 +70,78 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56701
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001825 seconds.
+Registered in 0.001447 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 153.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 130.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
+- Completed reload, in  0.807 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1071ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (813ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (497ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (153ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003820 seconds.
+Registered in 0.002715 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/steffen/Unity Projects/Mad-Maps/Library/PackageCache/com.unity.visualscripting@1.7.7/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 130.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 160.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.580 seconds
+- Completed reload, in  6.692 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3581ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (6693ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (3293ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (6403ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (523ms)
+			SetupTypeCache (521ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (2484ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (5601ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (2137ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (5174ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5297 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5764.
-Memory consumption went from 423.3 MB to 422.3 MB.
-Total: 5.339719 ms (FindLiveObjects: 0.487198 ms CreateObjectMapping: 0.390487 ms MarkObjects: 4.030144 ms  DeleteObjects: 0.430894 ms)
+Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5766.
+Memory consumption went from 423.6 MB to 422.6 MB.
+Total: 5.624563 ms (FindLiveObjects: 0.470057 ms CreateObjectMapping: 0.421868 ms MarkObjects: 4.287822 ms  DeleteObjects: 0.443777 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,61 +170,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54027.002671 seconds.
+  Time since last request: 167880.494275 seconds.
   path: Assets/MadMaps/Demo/DemoScene.unity
   artifactKey: Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Demo/DemoScene.unity using Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cb577e3948ac981b6e714b5c05f747') in 0.016689 seconds 
+Start importing Assets/MadMaps/Demo/DemoScene.unity using Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c91fe7f445634b49802a1f68c9d4b0') in 0.015525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.778938 seconds.
-  path: Assets/MadMaps/Documentation.pdf
-  artifactKey: Guid(b16b1682e38b4ab6be426b87f3091340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MadMaps/Documentation.pdf using Guid(b16b1682e38b4ab6be426b87f3091340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ea115196c72c66c222b1fb00c2f93e') in 0.125830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.823176 seconds.
-  path: Assets/Presets/AudioCompressedInMemory.preset
-  artifactKey: Guid(783d2737920048d5966e99549b711a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(783d2737920048d5966e99549b711a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd977662f4d777da7a0eec3ba69d6d945') in 0.117519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.670798 seconds.
-  path: Assets/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(13e23fcc78424b2cb7e25e35d926eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/High_PipelineAsset.asset using Guid(13e23fcc78424b2cb7e25e35d926eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6978c2759c1ecd5bd1aa480d0f5d4d') in 0.129687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Settings/UniversalRP-MediumQuality.asset
-  artifactKey: Guid(abaf3db6364043b7be4b54064a618013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(abaf3db6364043b7be4b54064a618013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff85b647371622b80f61842549e05b5') in 0.025915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(636a2286bc874066bc0da0f0705cbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(636a2286bc874066bc0da0f0705cbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab51a496ff059a27626b5af00f0ecb2') in 0.025260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(7d08df518b71448a8ee8a6dd3979d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(7d08df518b71448a8ee8a6dd3979d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e80b68b7e2fa935496812ed10ac415') in 0.012347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.234871 seconds.
-  path: Assets/Scripts/SimpleCameraController.cs
-  artifactKey: Guid(269489c354fd403785187a82e1fd0087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SimpleCameraController.cs using Guid(269489c354fd403785187a82e1fd0087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c3522e1f3ed0ae94d3d081035da543') in 0.138527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 130.565950 seconds.
-  path: Packages/com.unity.burst/package.json
-  artifactKey: Guid(5fb28db57db3325b95957fcfe1a0108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.burst/package.json using Guid(5fb28db57db3325b95957fcfe1a0108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64580ec773480a7bd990ab7f6200472c') in 0.381476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.708516 seconds.
-  path: Packages/com.unity.burst/CHANGELOG.md
-  artifactKey: Guid(345fbf1c69e936e180653ef894fe94fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.burst/CHANGELOG.md using Guid(345fbf1c69e936e180653ef894fe94fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fcd62b5f12e2371df4a5ad4e3a8655') in 0.365244 seconds 
+  Time since last request: 27.286893 seconds.
+  path: Assets/MadMaps/Demo/DemoScene.unity
+  artifactKey: Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MadMaps/Demo/DemoScene.unity using Guid(dc48f4a3715040759fb12ef6cb25fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295e7501971fdbab5cf344afddfa345') in 0.005769 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

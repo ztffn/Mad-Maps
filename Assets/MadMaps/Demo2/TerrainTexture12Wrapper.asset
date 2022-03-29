@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c09aea9db04c8dbee5415a69b1add2, type: 3}
+  m_Name: TerrainTexture12Wrapper
+  m_EditorClassIdentifier: 
+  Texture: {fileID: 2800000, guid: adafc7fa2474491a8e5475f795bfbad3, type: 3}
+  NormalMap: {fileID: 2800000, guid: e23e83b28342418884ac6583bbad82ee, type: 3}
+  Smoothness: 0
+  SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  TileSize: {x: 15, y: 15}
+  TileOffset: {x: 0, y: 0}
+  Metallic: 0
+  Multiplier: 1

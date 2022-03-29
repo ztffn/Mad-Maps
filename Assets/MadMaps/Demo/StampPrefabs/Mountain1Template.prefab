@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8883543015818327737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8883543015818327742}
+  - component: {fileID: 8883543015818327743}
+  m_Layer: 0
+  m_Name: Mountain1Template
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8883543015818327742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883543015818327737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 383.62573, y: 0, z: 417.64917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8883543015818327743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883543015818327737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960c3b12be104a4a82eecb74e9e9e3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mask:
+    _compressedData: 1f8b080000000000000363601805a3803c50d73cdf6ea0dd800e929c7cad19181aecb1e1dc400e7b7ab9c3a528c0e6c2aebb767abe5a58dd420c3ea81f649fd268461b37738793ed2efc987230fda31bce38a4062e797799a274bb6067801d2ddd07c3ac9ca2b6e4bb92f6ee83e1276a29648627fddc08c2d56f74c8489ff47523020f7e37266d3c4c42bc0f543836d8a77afa13998f06ce8dc4c7f9c0b9cfe797daa0772371ee1b7523b5dc68f3d563d0bb71e7498641efc68172df79660912da1803e3c6c91c3f86443d43ac0b17df88b71d08f7b94b4d24b13d3978c370d48d04f0fd2e12dbe4f477e3f319a4b5c7bfabc7d2a5df05c337a7949111d7f40e4bf2c0da734936f470dfd7891264bb1104bede994af3b2726fe3650afad910b03d5a806669f346d6711b4add0703dae913a8eace36f3bd341d03fcc0c26f6772af1eeeffdbd79edb3e2ab325ca6d52f9fe836e7c72140c1e000035af8408fc180000
+    _dirty: 0
+    Height: 39
+    Width: 41
+  Size: {x: 187.13452, y: 300, z: 177.77783}
+  Template:
+    Bounds:
+      m_Center: {x: 383.62573, y: 150, z: -940.3508}
+      m_Extent: {x: 93.56726, y: 150, z: 88.888916}
+    Terrain: {fileID: 0}
+    Layer: 0
+    DetailDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      IgnoredDetails: []
+    HeightmapDataCreator:
+      GUIExpanded: 1
+      Enabled: 1
+      AutoZeroLevel: 1
+    MaskDataCreator:
+      GUIExpanded: 1
+      Enabled: 1
+      GridSize: 4.6783624
+    ObjectDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      Mask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      RelativeMode: 0
+    RoadDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      CreateLightNetwork: 1
+      StripNetwork: 1
+      DeleteDataContainers: 1
+    SplatDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      IgnoredSplats: []
+    TreeDataCreator:
+      GUIExpanded: 0
+      Enabled: 1
+      Prototypes:
+      - {fileID: 100000, guid: 4f977e1799c54eb78d27d8751fbf9dec, type: 3}
+      - {fileID: 100000, guid: 4051a7deba92469cb5517e772ac99d51, type: 3}
+      - {fileID: 100000, guid: 6d79e2109b044d9c9a6a53b926db437b, type: 3}
+      IgnoredTrees: []

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cced022805144a9acb7cf8345e30b25, type: 3}
+  m_Name: BrokenRoad
+  m_EditorClassIdentifier: 
+  PreviewColor: {r: 0, g: 0.94952226, b: 1, a: 1}
+  Curviness: 60
+  ComponentsJSON:
+  - AssemblyQualifiedName: MadMaps.Roads.Connections.SetTerrainHeight+Config, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    JsonText: '{"Falloff":{"keys":[{"time":0.0,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.5,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Height":{"keys":[{"time":0.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Radius":10.0,"Priority":1,"Enabled":true,"__guid":"04e6a0e6-8e31-47bd-be04-3d12624719ca"}'
+    SerializedObjects: []
+  - AssemblyQualifiedName: MadMaps.Roads.Connections.SetTerrainSplats+Config, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    JsonText: '{"Radius":10.0,"SplatFalloff":{"keys":[{"time":0.0,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.5,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"SplatConfigurations":[{"SplatPrototype":1,"SplatStrength":1.0}],"Priority":1,"Enabled":true,"__guid":"767e9cf6-3fda-4ffa-b473-9c92b272cfca"}'
+    SerializedObjects:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 2fac79f51269646f59214ca9380f2604, type: 2}
+  - AssemblyQualifiedName: MadMaps.Roads.Connections.CreateRenderMesh+Config, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    JsonText: '{"LodLevels":[{"SourceMesh":1,"Materials":[2],"LodDistance":1.0,"Mirror":false,"Layer":0,"CopyToCollider":false,"BreakDistance":50.0,"SplineInterpolation":"Natural","SnapDistance":1.0,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"OverrideNormal":false,"NormalOverride":{"x":0.0,"y":1.0,"z":0.0},"PhongBreakAngle":45.0,"ShadowCastingMode":"Off"}],"Priority":1,"Enabled":true,"__guid":"f21b2e93-fdf8-46ee-9034-f6698b0fed85"}'
+    SerializedObjects:
+    - {fileID: 0}
+    - {fileID: 6385939765877477085, guid: 68c1603d62987412381ba7f0b6a12e69, type: 3}
+    - {fileID: 2100000, guid: 15cc5be890e654e4c9b74ef7d8a52379, type: 2}

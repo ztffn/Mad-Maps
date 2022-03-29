@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -16,29 +17,29 @@ MonoBehaviour:
   ComponentsJSON:
   - AssemblyQualifiedName: MadMaps.Roads.Connections.CreateRenderMesh+Config, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"LodLevels":[{"SourceMesh":1,"Materials":[2],"LodDistance":0.2,"Mirror":false,"Layer":21,"CopyToCollider":true,"BreakDistance":80.0,"SplineInterpolation":"Natural","SnapDistance":1.0,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"OverrideNormal":true,"NormalOverride":{"x":0.0,"y":1.0,"z":0.0},"PhongBreakAngle":45.0,"ShadowCastingMode":"On"},{"SourceMesh":3,"Materials":[2],"LodDistance":0.01,"Mirror":false,"Layer":21,"CopyToCollider":true,"BreakDistance":80.0,"SplineInterpolation":"Natural","SnapDistance":1.0,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"OverrideNormal":true,"NormalOverride":{"x":0.0,"y":1.0,"z":0.0},"PhongBreakAngle":45.0,"ShadowCastingMode":"On"}],"Priority":0,"Enabled":true,"__guid":"af73e3d7-3e45-478d-824d-9fbe97acd537"}'
+    JsonText: '{"LodLevels":[{"SourceMesh":1,"Materials":[2],"LodDistance":200.0,"Mirror":false,"Layer":0,"CopyToCollider":false,"BreakDistance":50.0,"SplineInterpolation":"Natural","SnapDistance":1.0,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"OverrideNormal":false,"NormalOverride":{"x":0.0,"y":1.0,"z":0.0},"PhongBreakAngle":45.0,"ShadowCastingMode":"Off"},{"SourceMesh":1,"Materials":[3],"LodDistance":1.0,"Mirror":false,"Layer":0,"CopyToCollider":false,"BreakDistance":50.0,"SplineInterpolation":"Natural","SnapDistance":1.0,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"OverrideNormal":false,"NormalOverride":{"x":0.0,"y":1.0,"z":0.0},"PhongBreakAngle":45.0,"ShadowCastingMode":"Off"}],"Priority":1,"Enabled":true,"__guid":"c71d5554-ad01-43e9-a593-7ab5580ec2c8"}'
     SerializedObjects:
     - {fileID: 0}
-    - {fileID: 4300010, guid: 4281fc5bc63273c49a3c6dbd4e72ea2c, type: 3}
-    - {fileID: 2100000, guid: 4b1ace85f6f987941acefe6c59eb8fa5, type: 2}
-    - {fileID: 4300014, guid: 4281fc5bc63273c49a3c6dbd4e72ea2c, type: 3}
-  - AssemblyQualifiedName: MadMaps.Roads.Connections.RemoveTerrainTrees+Config, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"TreeRemoveDistance":8.0,"RegexMatch":null,"Priority":10,"Enabled":true,"__guid":"992425d0-26af-4e10-946c-970bac55dad6"}'
-    SerializedObjects: []
-  - AssemblyQualifiedName: MadMaps.Roads.Connections.RemoveTerrainDetails+Config,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"Radius":7.0,"GrassFalloff":{"keys":[{"time":0.0,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.5,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Priority":10,"Enabled":true,"__guid":"eecb95f7-8d28-4d71-8de5-a8821864742e"}'
-    SerializedObjects: []
+    - {fileID: 7116006457885822732, guid: e7c5a48cff7c4ec8a2a4914c7be44e3a, type: 3}
+    - {fileID: 2100000, guid: 73fca16009894f8b8ca426d9df0d1557, type: 2}
+    - {fileID: 2100000, guid: fd70fd65d269a485fbca22f76eb29b24, type: 2}
   - AssemblyQualifiedName: MadMaps.Roads.RemoveTerrainObjects+Config, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"ObjectRemovalMask":{"value":2097152},"ObjectRemoveDistance":40.0,"RegexMatch":"Rock|rock|Cliff|cliff|Clump","Priority":10,"Enabled":true,"__guid":"048d7ad9-bd7a-4bcf-b823-dc92c15b73af"}'
+    JsonText: '{"ObjectRemovalMask":{"value":-1},"ObjectRemoveDistance":1.0,"RegexMatch":null,"Priority":1,"Enabled":true,"__guid":"5bc288d5-7c46-4034-8cf0-ee38232bda50"}'
     SerializedObjects: []
+  - AssemblyQualifiedName: MadMaps.Roads.Connections.CreateColliderMesh+Config, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    JsonText: '{"SourceMesh":1,"Material":null,"Mirror":false,"Layer":0,"BreakDistance":50.0,"SplineInterpolation":"Natural","SnapDistance":0.05,"Axis":"XPos","Scale":{"x":1.0,"y":1.0,"z":1.0},"Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"Priority":1,"Enabled":true,"__guid":"140f0366-b790-4846-92e2-df520383c3c8"}'
+    SerializedObjects:
+    - {fileID: 0}
+    - {fileID: 7116006457885822732, guid: e7c5a48cff7c4ec8a2a4914c7be44e3a, type: 3}
+  - AssemblyQualifiedName: MadMaps.Roads.Connections.PlaceTerrainObjects+Config,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    JsonText: '{"Objects":[1],"Distance":{"Min":1.0,"Max":1.0},"InitialOffset":0.0,"MaxInstances":1000,"SplineOffset":{"Min":0.0,"Max":0.0},"Scale":{"Min":{"x":1.0,"y":1.0,"z":1.0},"Max":{"x":1.0,"y":1.0,"z":1.0}},"UniformScale":true,"Rotation":{"Min":{"x":0.0,"y":0.0,"z":0.0},"Max":{"x":0.0,"y":0.0,"z":0.0}},"LocalOffset":{"Min":{"x":0.0,"y":0.0,"z":0.0},"Max":{"x":0.0,"y":0.0,"z":0.0}},"SplineRotation":{"x":0.0,"y":0.0,"z":0.0},"Mirror":false,"Chance":1.0,"AbsoluteHeight":true,"Priority":1,"Enabled":true,"__guid":"05db208b-f33e-4e59-980a-5fd459caaa63"}'
+    SerializedObjects:
+    - {fileID: 0}
+    - {fileID: 4410402899750998667, guid: 43087d4964374fca9b2eca77453f1fed, type: 3}
   - AssemblyQualifiedName: MadMaps.Roads.Connections.SetTerrainHeight+Config, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"Falloff":{"keys":[{"time":0.0,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.3,"value":1.0,"tangentMode":65,"inTangent":0.0,"outTangent":-1.428571},{"time":1.0,"value":0.0,"tangentMode":34,"inTangent":-1.428571,"outTangent":-1.428571}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Height":{"keys":[{"time":0.0,"value":-0.3,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.18,"value":-0.3,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.25,"value":0.2,"tangentMode":69,"inTangent":7.142858,"outTangent":1.066667},{"time":1.0,"value":1.0,"tangentMode":34,"inTangent":1.066667,"outTangent":1.066667}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Radius":50.0,"Priority":10,"Enabled":true,"__guid":"0a83116c-1480-4a13-91fc-ffdab633389d"}'
-    SerializedObjects: []
-  - AssemblyQualifiedName: MadMaps.Roads.Connections.SplineDeformer+Config, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    JsonText: '{"Amplitude":{"keys":[{"time":0.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.2,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.8,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"AmplitudeCoefficient":1.0,"Frequency":0.2,"Priority":0,"Enabled":true,"__guid":"ff93c65c-efa4-490e-a022-20e3b1489230"}'
+    JsonText: '{"Falloff":{"keys":[{"time":0.0,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":0.5,"value":1.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Height":{"keys":[{"time":0.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0},{"time":1.0,"value":0.0,"tangentMode":0,"inTangent":0.0,"outTangent":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"Radius":10.0,"Priority":1,"Enabled":true,"__guid":"f95baa10-c3b4-473e-b9d8-d6c9b790b0ac"}'
     SerializedObjects: []
